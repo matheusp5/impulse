@@ -1,6 +1,5 @@
 # Impulse
 ### A simple app tools for pentest and cybersecurity.
-<br>
 
 ## Features
 <ul>
@@ -18,7 +17,6 @@
 
 ## How to install
 
-<br>
 <ul>
 
 ### <b>Clone the repository from github</b>
@@ -27,21 +25,18 @@
 git clone https://github.com/ofmxtheuuz/impulse
 ```
 
-<br>
 
 ### <b>Install dependencies</b>
 
 ```
 pip install -r requirements.txt
 ```
-<br>
 
 ### <b>Run the project</b>
 
 ```
 python main.py
 ```
-<br>
 
 ### <b>Follow me on github</b>
 S2
