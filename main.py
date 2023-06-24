@@ -70,14 +70,14 @@ def get_choise(choise):
 
     match choise:
         case 1:
-            domain = input(Fore.CYAN + "What is the domain? -> ")
+            domain = input(Fore.CYAN + "What's the domain? -> ")
             result = tools_class.get_domain_information(domain)
             lines = result.splitlines()
             filtered_lines = [line for line in lines if not line.startswith("%")]
             capitalized_lines = [line.capitalize() for line in filtered_lines]
             print(Fore.GREEN + "\n".join(capitalized_lines))
         case 2:
-            ipv4 = input("What is the IPv4? -> ")
+            ipv4 = input("What's the IPv4? -> ")
             result = tools_class.get_ipv4_geolocation(ipv4)
             print(Fore.GREEN)
             print(f"IP Address: {result.ip_address}")
@@ -88,7 +88,7 @@ def get_choise(choise):
             print(f"Longitude: {result.longitude}")
             print(f"Coordinates: {result.latitude}, {result.longitude}")
         case 3:
-            ipv6 = input("What is the IPv6? -> ")
+            ipv6 = input("What's the IPv6? -> ")
             result = tools_class.get_ipv6_geolocation(ipv6)
             print(Fore.GREEN)
             print(f"IP Address: {result.ip_address}")
@@ -102,7 +102,7 @@ def get_choise(choise):
             result = tools_class.get_client_ip()
             print(Fore.GREEN + f"Your IPv4 is {result['ip']}")
         case 5:
-            cep = input("What is the CEP (xxxxx-xxx) ? -> ")
+            cep = input("What's the CEP (xxxxx-xxx)? -> ")
             result = tools_class.get_cep(cep)
             print(Fore.GREEN)
             print(f"CEP: {result['cep']}")
@@ -144,7 +144,7 @@ def get_choise(choise):
             print(f"x2 = {x2}")
             print("S = { " + solution + " }")
         case 9:
-            ip = input("What's the IP and port (127.0.0.1/24, for example)? -> ")
+            ip = input("What's the IP and port (192.168.1.1/24, for example)? -> ")
             print(Fore.GREEN)
             tools_class.network_scanner(ip)
         case 10:
