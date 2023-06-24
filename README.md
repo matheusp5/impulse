@@ -47,3 +47,9 @@ python main.py
 S2
 
 </ul>
+
+<br>
+
+## Printscreen
+
+<img src="./example.png" />
