@@ -9,7 +9,7 @@
   <li>What's my IP?</li>
   <li>Search informations from CEP</li>
   <li>E-mail spam</li>
-  <li>Dockerfile and docker-compose generate <b>(not implemented yet)</b></li>
+  <li>Dockerfile and docker-compose generate</li>
   <li>Bhaskara resolver (meme)</li>
   <li>Network scanner</li>
   <li>Site status</li>
